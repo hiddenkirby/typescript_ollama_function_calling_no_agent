@@ -1,0 +1,24 @@
+{
+  "name": "simple_typescript_ollama_non_agent_test",
+  "version": "0.0.1",
+  "main": "src/main.ts",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "watch": "tsc --watch",
+    "dev": "ts-node src/main.ts"
+  },
+  "author": "hiddenkirby@gmail.com",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "ollama": "^0.5.8"
+  },
+  "devDependencies": {
+    "@types/node": "~22.5.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
