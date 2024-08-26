@@ -7,3 +7,8 @@
 1. nvm
 2. ollama installed
 3. searxng installed (i installed searxng-docker)
+
+# to run
+1. `nvm use`
+2. `npm run build`
+3. `npm run start`
